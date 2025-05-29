@@ -1,0 +1,49 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    :root {
+      --background: 220 40% 5%; /* bg-gray-950 - Darker background */
+      --foreground: 210 40% 96%; /* text-gray-200 - Slightly adjusted for contrast */
+
+      --card: 220 30% 8%; /* Slightly lighter than background for cards */
+      --card-foreground: 210 40% 96%;
+
+      --popover: 220 40% 5%;
+      --popover-foreground: 210 40% 96%;
+
+      --primary: 270 70% 65%; /* purple-500 (approx) for primary actions - More purple */
+      --primary-foreground: 210 40% 98%; 
+
+      --secondary: 240 50% 50%; /* blue-600 (approx) for secondary elements */
+      --secondary-foreground: 210 40% 98%;
+
+      --muted: 220 25% 15%; /* Darker muted */
+      --muted-foreground: 215 20% 65%;
+
+      --accent: 240 50% 50%;
+      --accent-foreground: 210 40% 98%;
+
+      --destructive: 0 70% 50%; /* Adjusted destructive for better visibility */
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 220 25% 20%; /* Darker border */
+      --input: 220 25% 12%; /* Darker input */
+      --ring: 270 70% 65%; /* Primary color for focus rings */
+
+      --radius: 0.5rem;
+    }
+
+    body {
+      @apply bg-background text-foreground;
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth; /* Added for smooth scrolling anchor links */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      @apply font-bold;
+    }
+
+    .glassmorphism-card {
+      @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl shadow-2xl;
+    }
