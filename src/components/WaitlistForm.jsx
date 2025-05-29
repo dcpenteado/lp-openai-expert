@@ -121,18 +121,6 @@ import React, { useState } from 'react';
                 </CardFooter>
               </Card>
             </motion.div>
-             <motion.div 
-                className="mt-16 text-center"
-                variants={imageVariants}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.3 }}
-              >
-                <img   
-                    alt="Ícone de um calendário marcando uma data futura para o lançamento do curso Expert, com tema escuro e roxo" 
-                    class="w-48 h-48 mx-auto opacity-70 filter grayscale contrast-150 brightness-50 saturate-200 hue-rotate-[240deg]"
-                 src="https://images.unsplash.com/photo-1641567374010-07f12d41da86" />
-            </motion.div>
           </div>
         </motion.section>
       );

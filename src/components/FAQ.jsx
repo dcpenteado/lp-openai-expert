@@ -79,18 +79,6 @@ import React from 'react';
                 </motion.div>
               ))}
             </Accordion>
-            <motion.div 
-              className="mt-16 text-center"
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.7, delay: faqData.length * 0.1 + 0.2, ease: "easeOut" }}
-            >
-              <img 
-                alt="Ilustração abstrata de pontos de interrogação e balões de fala em tons de roxo e azul escuro, simbolizando perguntas e respostas"
-                class="w-full max-w-sm mx-auto opacity-80"
-               src="https://images.unsplash.com/photo-1636114673156-052a83459fc1" />
-            </motion.div>
           </div>
         </section>
       );

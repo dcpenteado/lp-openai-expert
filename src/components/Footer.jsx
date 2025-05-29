@@ -25,7 +25,7 @@ import React from 'react';
                 <span className="sr-only">GitHub</span>
               </motion.a>
               <motion.a 
-                href="https://www.linkedin.com/in/diegopenteado/" /* Replace with actual LinkedIn URL */
+                href="https://www.linkedin.com/in/dcpenteado/" /* Replace with actual LinkedIn URL */
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="hover:text-primary transition-colors"
@@ -34,17 +34,6 @@ import React from 'react';
               >
                 <Linkedin size={24} />
                 <span className="sr-only">LinkedIn</span>
-              </motion.a>
-              <motion.a 
-                href="https://twitter.com/diegocpenteado" /* Replace with actual Twitter URL */
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="hover:text-primary transition-colors"
-                whileHover={{ scale: 1.2, color: "hsl(var(--primary))" }}
-                whileTap={{ scale: 0.9 }}
-              >
-                <Twitter size={24} />
-                <span className="sr-only">Twitter</span>
               </motion.a>
             </div>
             <p className="text-sm">
