@@ -63,7 +63,7 @@ import React, { useEffect } from 'react';
 
           toast({
             title: "Sucesso!",
-            description: "Você foi adicionado à lista de espera.",
+            description: "Você foi adicionado à lista de espera. Em breve entraremos em contato!",
             variant: "default",
           });
         } catch (error) {
@@ -90,7 +90,7 @@ import React, { useEffect } from 'react';
           }
           toast({
             title: "Quase lá!",
-            description: "Seu número foi registrado para o grupo do WhatsApp.",
+            description: "Seu número foi registrado! Em breve você será adicionado ao grupo de Whatsapp!",
             variant: "default",
           });
         } catch (error) {
@@ -117,11 +117,12 @@ import React, { useEffect } from 'react';
               <AboutCourse />
             </AnimatedSection>
             <AnimatedSection threshold={0.15}>
-              <AboutProfessor />
-            </AnimatedSection>
-            <AnimatedSection threshold={0.15}>
               <WhatsAppSignup onSubmit={handleWhatsAppSubmit} />
             </AnimatedSection>
+            <AnimatedSection threshold={0.15}>
+              <AboutProfessor />
+            </AnimatedSection>
+            
             <AnimatedSection threshold={0.15}>
               <WaitlistForm onSubmit={handleWaitlistSubmit} />
             </AnimatedSection>
