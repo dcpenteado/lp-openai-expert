@@ -32,7 +32,8 @@ import React from 'react';
               {price && (
                 <div className="mb-6">
                   <p className="text-4xl font-bold text-white">{price}</p>
-                  {isExpert && <p className="text-sm text-gray-400">ou 12x sem juros</p>}
+                  {isExpert && <p className="text-sm text-gray-400">Em até 12x sem juros de <b> R$ 16,58</b> 😱</p>}
+                  {!isExpert && <p className="text-sm text-gray-400">Acesso imediato. Sem cadastro</p>}
                 </div>
               )}
               <ul className="space-y-3">
@@ -72,20 +73,35 @@ import React from 'react';
 
     export const AboutCourse = () => {
       const basicFeatures = [
+        "Aulas gratuitas no YouTube.",
         "Acesso ao código fonte completo das aulas.",
         "Fundamentos dos principais produtos OpenAI.",
         "Projetos práticos para iniciar sua jornada.",
+        "IA generativa de texto  (API's Completions e Responses).",
+        "Aula básica de criação de prompts.",
+        "Imagens: análise de conteúdo e geração.",
+        "Áudio: transcrição (speech to text) e geração (text to speech).",
+        "IA com consulta na web.",
+        "IA com consulta em arquivos (texto, planilha, doc, PDF, etc).",
+        "IA para moderação de conteúdo (assédio, ódio, violência, racismo, conteúdo sexual, etc).",
+        "Cadeia de pensamento / raciocínio.",
+        "Functions básico.",
+        "Assistants básico.",
+        "Grupo de Whatsapp grátis.",
         "Comunidade de aprendizado ativa."
       ];
 
       const expertFeatures = [
         "Tudo do Básico, e muito mais!",
-        "Até 35 aulas aprofundadas.",
-        "Módulos avançados sobre GPT, DALL-E, Whisper, etc.",
-        "Técnicas de Fine-tuning e Embeddings.",
-        "Integração com APIs e desenvolvimento de aplicações reais.",
-        "Sessões de mentoria e suporte exclusivo.",
-        "Certificado de Conclusão Expert."
+        "Mais de 30 aulas muito mais aprofundadas.",
+        "Módulo de Assistants avançado.",
+        "Módulo de Agents avançado.",
+        "Módulo de modelos da OpenAI.",
+        "Construção do Micro Saas de geração de imagens (com código fonte - Node + Vue).",
+        "Construção do Micro Saas de dublagens (com código fonte - Node + Vue).",
+        "Suporte exclusivo.",
+        "Comunidade exclusiva do curso.",
+        "Certificado de Conclusão."
       ];
 
       return (
@@ -114,6 +130,7 @@ import React from 'react';
               <PlanCard
                 title="Basic"
                 description="Comece sua jornada com acesso gratuito ao código fonte."
+                price="R$ 0"
                 features={basicFeatures}
                 actionText="Acessar Código no GitHub"
                 actionLink="https://github.com/dcpenteado/openai-expert"
