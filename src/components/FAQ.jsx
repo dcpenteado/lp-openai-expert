@@ -15,7 +15,7 @@ import React from 'react';
       },
       {
         question: "Preciso de conhecimento prévio em IA ou programação?",
-        answer: "Para a versão Basic, um conhecimento fundamental de programação (preferencialmente Python) é útil para acompanhar os exemplos de código. A versão Expert aprofunda em conceitos que podem exigir uma base mais sólida, mas o curso é estruturado para guiar você progressivamente.",
+        answer: "Para a versão Basic, um conhecimento fundamental de programação em Javascript (Node.js) é útil para acompanhar os exemplos de código. A versão Expert aprofunda em conceitos que podem exigir uma base mais sólida, mas o curso é estruturado para guiar você progressivamente.",
       },
       {
         question: "Qual a diferença entre a versão Basic e Expert?",

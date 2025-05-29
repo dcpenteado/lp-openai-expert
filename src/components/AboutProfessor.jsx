@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Briefcase, DollarSign, MapPin, Building } from 'lucide-react';
+import foto from '@/assets/foto.jpg';
 
 export const AboutProfessor = () => {
   const professor = {
@@ -57,7 +58,7 @@ export const AboutProfessor = () => {
             <img
               alt={`Foto de Diego Penteado, professor do curso OpenAI Expert`}
               class="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-primary shadow-2xl shadow-primary/40"
-              src="https://images.unsplash.com/photo-1669152508492-b0b5f37d567e" />
+              src={foto} />
           </motion.div>
 
           <div className="w-full md:w-2/3 space-y-6">
