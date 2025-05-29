@@ -5,6 +5,7 @@ import React, { useEffect } from 'react';
     import { AboutProfessor } from '@/components/AboutProfessor';
     import { WhatsAppSignup } from '@/components/WhatsAppSignup';
     import { WaitlistForm } from '@/components/WaitlistForm';
+    import { SalesPitch } from '@/components/SalesPitch';
     import { FAQ } from '@/components/FAQ';
     import { Footer } from '@/components/Footer';
     import { Toaster } from '@/components/ui/toaster';
@@ -108,6 +109,9 @@ import React, { useEffect } from 'react';
           <main className="flex-grow">
             <AnimatedSection threshold={0.2}>
               <Hero />
+            </AnimatedSection>
+            <AnimatedSection threshold={0.15}>
+              <SalesPitch />
             </AnimatedSection>
             <AnimatedSection threshold={0.15}>
               <AboutCourse />
