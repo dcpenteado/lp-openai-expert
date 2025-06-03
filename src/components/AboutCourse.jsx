@@ -48,7 +48,7 @@ const PlanCard = ({ title, description, price, features, actionText, actionLink,
         <CardFooter>
           {actionLink ? (
             <Button
-              className={`w-full text-lg py-3 ${isExpert ? 'bg-gradient-to-r from-primary to-purple-600 hover:from-purple-600 hover:to-purple-700' : 'bg-gradient-to-r from-secondary to-blue-600 hover:from-blue-600 hover:to-blue-700'} text-white shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300`}
+              className={`h-auto w-full text-lg py-3 ${isExpert ? 'bg-gradient-to-r from-primary to-purple-600 hover:from-purple-600 hover:to-purple-700' : 'bg-gradient-to-r from-secondary to-blue-600 hover:from-blue-600 hover:to-blue-700'} text-white shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300`}
               asChild
             >
               <a href={actionLink} target={actionLink.startsWith('http') ? "_blank" : "_self"} rel="noopener noreferrer">
@@ -58,7 +58,7 @@ const PlanCard = ({ title, description, price, features, actionText, actionLink,
             </Button>
           ) : (
             <Button
-              className={`w-full text-lg py-3 ${isExpert ? 'bg-gradient-to-r from-primary to-purple-600 hover:from-purple-600 hover:to-purple-700' : 'bg-gradient-to-r from-secondary to-blue-600 hover:from-blue-600 hover:to-blue-700'} text-white shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300`}
+              className={`h-auto w-full text-lg py-3 ${isExpert ? 'bg-gradient-to-r from-primary to-purple-600 hover:from-purple-600 hover:to-purple-700' : 'bg-gradient-to-r from-secondary to-blue-600 hover:from-blue-600 hover:to-blue-700'} text-white shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300`}
               onClick={isExpert ? scrollToWaitlist : null}
             >
               {isExpert ? <CalendarDays className="mr-2 h-5 w-5" /> : <Github className="mr-2 h-5 w-5" />}

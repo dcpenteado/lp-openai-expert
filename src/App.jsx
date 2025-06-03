@@ -110,7 +110,7 @@ import React, { useEffect } from 'react';
             <AnimatedSection threshold={0.2}>
               <Hero />
             </AnimatedSection>
-            <AnimatedSection threshold={0.15}>
+            <AnimatedSection threshold={0.1}>
               <SalesPitch />
             </AnimatedSection>
             <AnimatedSection threshold={0.15}>

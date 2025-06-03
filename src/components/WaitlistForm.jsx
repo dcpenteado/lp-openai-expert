@@ -108,7 +108,7 @@ import React, { useState } from 'react';
                       type="submit" 
                       size="lg"
                       disabled={isLoading}
-                      className="w-full bg-gradient-to-r from-primary to-secondary hover:from-purple-600 hover:to-blue-600 text-white shadow-lg transform hover:scale-105 transition-transform duration-300 ease-out text-lg py-3 disabled:opacity-70"
+                      className="h-auto w-full bg-gradient-to-r from-primary to-secondary hover:from-purple-600 hover:to-blue-600 text-white shadow-lg transform hover:scale-105 transition-transform duration-300 ease-out text-lg py-3 disabled:opacity-70"
                     >
                       {isLoading ? 'Enviando...' : <><Send className="mr-2 h-5 w-5" /> Quero Ser Avisado!</>}
                     </Button>

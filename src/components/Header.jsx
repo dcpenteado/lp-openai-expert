@@ -28,7 +28,7 @@ export const Header = () => {
             OpenAI Expert
           </span>
         </motion.div>
-        <nav className="flex space-x-4 md:space-x-6">
+        <nav className="hidden md:flex space-x-4 md:space-x-6">
           <a href="#" onClick={() => scrollToDiv('about-course')} className="text-gray-300 hover:text-primary transition-colors duration-300 text-sm sm:text-base">O Curso</a>
           <a href="#" onClick={() => scrollToDiv('about-professor')} className="text-gray-300 hover:text-primary transition-colors duration-300 text-sm sm:text-base">Professor</a>
           <a href="#" onClick={() => scrollToDiv('faq')} className="text-gray-300 hover:text-primary transition-colors duration-300 text-sm sm:text-base">FAQ</a>

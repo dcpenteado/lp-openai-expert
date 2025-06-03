@@ -176,7 +176,7 @@ export const SalesPitch = () => {
                     </h3>
                     <Button
                         size="lg"
-                        className="bg-gradient-to-r from-primary to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white shadow-xl hover:shadow-primary/40 transform hover:scale-105 transition-all duration-300 ease-out text-xl px-10 py-8"
+                        className="h-auto bg-gradient-to-r from-primary to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white shadow-xl hover:shadow-primary/40 transform hover:scale-105 transition-all duration-300 ease-out text-xl px-10 py-8"
                         onClick={() => {scrollToDiv('about-course')}}
                     >
                         👉 Quero dominar a IA e transformar minha carreira
